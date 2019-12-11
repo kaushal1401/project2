@@ -1,2 +1,2 @@
 write-host "hello,world"
-stop-process -name cmd*
+New-Item -Path "c:\" -Name "logfiles" -ItemType "directory"
